@@ -1,0 +1,39 @@
+# --- Arquivos de IDEs e Editores de Código ---
+.vs/
+.vscode/
+*.suo
+*.user
+*.sln.docstates
+*.vsidx
+.DS_Store
+
+# --- Back-end (.NET / C#) ---
+# Ignora as pastas de compilação automática
+**/bin/
+**/obj/
+
+# Ignora o banco de dados SQLite para o avaliador gerar o dele limpo
+*.db
+*.db-shadow
+*.db-journal
+
+# --- Front-end (Node / React / Vite) ---
+# Ignora a pasta pesada de dependências do Node
+**/node_modules/
+
+# Ignora os arquivos de build gerados para produção
+**/dist/
+**/build/
+**/out/
+
+# Ignora logs de erro do npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de variáveis de ambiente locais (segurança)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

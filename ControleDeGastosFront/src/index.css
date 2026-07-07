@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+input,
+select,
+button {
+  padding: 8px;
+  margin: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ccc;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+button {
+  cursor: pointer;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+
+input,
+select,
+button {
+    padding: 8px;
+    margin: 8px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+}
+
+button:hover {
+    background-color: #1565c0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
